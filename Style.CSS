@@ -1,0 +1,77 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #bef7ca;
+  color: #4d4d4d;
+}
+
+/* Header with background image */
+header {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/6/6e/Air_pollution.jpg') no-repeat center center/cover;
+  color: rgb(0, 248, 37);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Navigation menu */
+nav {
+  background: #1a1a1a;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #cc0000;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #006633;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen con efecto */
+img {
+  border-radius: 12px;
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,.6) inset,
+    0 0 22px rgba(0, 170, 255, .6),
+    0 0 44px rgba(0, 170, 255, .35);
+  max-width: 70%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  color: rgb(189, 0, 0);
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
